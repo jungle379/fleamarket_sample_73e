@@ -1,27 +1,66 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+🐾 README
+💻 アプリ名
+FURIMA
+🌐 URL
+http://18.180.236.160/
 
-Things you may want to cover:
+■ Basic認証
+ID：furima
+Pass：73e
 
-* Ruby version
 
-* System dependencies
+🎈 トップページ
 
-* Configuration
+💡 制作背景
+家にある使っていない物が、誰かにとって必要な物かもしれません。
+シンプルで使いやすいフリマアプリがあれば気軽に初めることができ、必要な人の元へお届けしやすいのではと考えて制作しました。
 
-* Database creation
+🔰 説明
+フリマーケットサイトの模擬サイトです。 実際に販売等はできませんが、以下の機能を動かすことができます。
 
-* Database initialization
+ユーザー登録・ログイン
+商品出品
+出品した商品情報の編集
+出品した商品の削除
+商品の詳細情報の確認
+商品の購入
+クレジットカードの登録
+🌟 使い方
+トップページ・商品詳細ページの閲覧のみであればログインは不要です
+出品・編集・削除はログインが必要です
+購入はログインとクレジットカード登録が必要です
+🔒 閲覧用
+■ テスト用アカウント
+◯ 購入者用
+メールアドレス：mochi@mail
+パスワード：mochi00
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+◯ 購入用カード情報
+番号：4242424242424242
+期限：01/21
+セキュリティコード：111
 
-* Deployment instructions
 
-* ...
+◯ 出品者用
+メールアドレス：yasu@gmail
+パスワード：ya0000
+
+
+✒️ 構築
+$ git clone https://github.com/jungle379/fleamarket_sample_73e
+$ cd fleamarket_sample_72a
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails s
+http://localhost:3000
+
+⚠️ ライセンス
+MIT
+
 # fleamarket_sample_73e DB設計
 ## addressesテーブル
 |Column|Type|Options|
