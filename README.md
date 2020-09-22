@@ -2,7 +2,7 @@
 
 🐾 README<br>
 💻 アプリ名<br>
-FURIMA
+FURIMA<br>
 🌐 URL<br>
 http://18.180.236.160/
 
