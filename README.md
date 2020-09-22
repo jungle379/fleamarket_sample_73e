@@ -1,9 +1,9 @@
 # README
 
-🐾 README
-💻 アプリ名
+🐾 README<br>
+💻 アプリ名<br>
 FURIMA
-🌐 URL
+🌐 URL<br>
 http://18.180.236.160/
 
 ■ Basic認証
