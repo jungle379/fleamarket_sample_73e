@@ -7,7 +7,7 @@ FURIMA
 http://18.180.236.160/
 
 ■ Basic認証
-ID：furima
+ID：furima<br>
 Pass：73e
 
 
